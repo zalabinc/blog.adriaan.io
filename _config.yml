@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            "Adriaan's blog"
 tagline:          "Adriaan's coding blog"
 description:      'Just learnings, no bullshit'
 url:              http://hyde.getpoole.com
