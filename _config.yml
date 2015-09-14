@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            "Adriaan's blog"
 tagline:          "Adriaan's coding blog"
 description:      'Just learnings, no bullshit'
-url:              http://hyde.getpoole.com
+url:              https://blog.adriaan.io
 baseurl:          /
 
 author:
