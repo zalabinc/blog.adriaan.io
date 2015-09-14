@@ -21,4 +21,4 @@ but isn't it nicer to have the text to be always right? We use the `isFulfilled`
 {% endraw %}
 {% endhighlight %}
 
-Ember version 2.0.0
+Ember 2.0.0
