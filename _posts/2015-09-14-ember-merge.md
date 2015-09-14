@@ -3,8 +3,7 @@ layout: post
 title: Ember.merge()
 ---
 
-{% highlight js %}
-allSales: function() {
+{% highlight js %}allSales: function() {
   return Ember.merge(this.get('sellerSales'), this.get('buyerSales'));
 }.property('sellerSales', 'buyerSales'),
 
@@ -18,5 +17,4 @@ buyerSales: function() {
   return this.store.query('sale', {
     buyer: this.get('id')
   });
-}.property()
-{% endhighlight %}
+}.property(){% endhighlight %}
