@@ -29,4 +29,4 @@ export default DS.Model.extend({
 });
 {% endhighlight %}
 
-[Docs](http://emberjs.com/api/#method_merge) on Ember.merge()
+Ember 2.0.0; [Docs](http://emberjs.com/api/#method_merge) on Ember.merge()
