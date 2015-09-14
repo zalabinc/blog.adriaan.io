@@ -7,7 +7,7 @@ For the Member Get Member Company we build an admin in Ember with us of the [emb
 We want to show to the users of the admin if the current user does not have offers. We can just make a simple `if`-statement, 
 but isn't it nicer to have the text to be always right? We use the `isFulfilled`-flag for that.
 
-{% highlight hbs %}
+{% highlight handlebars %}
 {% raw %}
 {{#if model.offers}}
   {{#each model.offers as |offer|}}
