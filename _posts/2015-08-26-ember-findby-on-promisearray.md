@@ -19,4 +19,6 @@ export default Ember.ObjectController.extend({
 });
 {% endhighlight %}
 
+The trick is to use the `isFulfilled` flag so it does not throw an error.
+
 Ember < 2.0.0 (don't now the exact version)
