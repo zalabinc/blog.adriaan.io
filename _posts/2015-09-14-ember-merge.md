@@ -3,18 +3,15 @@ layout: post
 title: Ember.merge()
 ---
 
-{% highlight js %}allSales: function() {
-  return Ember.merge(this.get('sellerSales'), this.get('buyerSales'));
-}.property('sellerSales', 'buyerSales'),
+sadfadsf
 
-sellerSales: function() {
-  return this.store.query('sale', {
-    seller: this.get('id')
-  });
-}.property(),
+{% highlight js %}
+// Example can be run directly in your JavaScript console
 
-buyerSales: function() {
-  return this.store.query('sale', {
-    buyer: this.get('id')
-  });
-}.property(){% endhighlight %}
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
