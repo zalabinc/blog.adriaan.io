@@ -13,7 +13,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 For Sublime Text 2 it is
 
 {% highlight bash %}
-# terminate function
+# Sublime Text alias
 alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 {% endhighlight %}
 
