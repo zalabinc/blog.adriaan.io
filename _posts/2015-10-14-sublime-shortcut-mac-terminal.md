@@ -17,7 +17,7 @@ For Sublime Text 2 it is
 alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 {% endhighlight %}
 
-Now you can type
+Now you can type (without the `$` of course)
 
 {% highlight bash %}
 $ subl ~/Downloads/some_file.txt
