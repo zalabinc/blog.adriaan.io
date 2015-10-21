@@ -25,5 +25,5 @@ For Broccoli you can use the [npm module](https://www.npmjs.com/package/broccoli
 by [sindresorhus](https://github.com/sindresorhus).
 See the [broccoli-autoprefixer GitHub-repo](https://github.com/sindresorhus/broccoli-autoprefixer).
 
-### EmberJS
+### Note on EmberJS
 In EmberJS you should head to the ember-cli addon [ember-cli-autoprefixer](https://www.npmjs.com/package/ember-cli-autoprefixer)
