@@ -36,4 +36,7 @@
     ga('create', 'UA-243569-37', 'auto');
     ga('send', 'pageview');
   </script>
+  
+  <!-- Disqus -->
+  {% if page.comments %}{% include disqus_comments.html %}{% endif %}
 </head>
