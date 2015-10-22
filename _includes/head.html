@@ -37,6 +37,12 @@
     ga('send', 'pageview');
   </script>
   
+  {% if page %}
+    <!-- page -->
+  {% else %}
+    <!-- not page -->
+  {% endif %}
+  
   <!-- Disqus {{ page.layout }}. -->
   <!--{% if page.comments == null or page.comments == true %}-->
   <!--  {% include disqus_comments.html %}-->
