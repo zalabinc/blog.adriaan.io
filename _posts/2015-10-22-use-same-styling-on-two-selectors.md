@@ -3,7 +3,7 @@ title: Use the same style definitions twice without extend
 layout: post
 ---
 
-In *sass* or *scss* you can use `extend`-function to merge selectors together.
+In `sass` or `scss` you can use `extend`-function to merge selectors together.
 This is useful for some cases, but when you just want to define the styling on
 two different selectors you maybe want a different behaviour.
 
