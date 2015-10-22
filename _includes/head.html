@@ -38,5 +38,7 @@
   </script>
   
   <!-- Disqus -->
-  {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+  {% if page.comments == null or page.comments == true %}
+    {% include disqus_comments.html %}
+  {% endif %}
 </head>
