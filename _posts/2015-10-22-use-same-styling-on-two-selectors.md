@@ -9,7 +9,7 @@ two different selectors you maybe want a different behaviour.
 
 The problem is as follows.
 
-{% highlight scss %}
+{% highlight css %}
 %button {
   color: red;
 }
@@ -50,7 +50,7 @@ But you want to have this result:
 How to solve this?  If just want to copy some styling to another selector you 
 can use the `mixin`-function like this:
 
-{% highlight scss %}
+{% highlight css %}
 @mixin button() {
   border: none;
 }
