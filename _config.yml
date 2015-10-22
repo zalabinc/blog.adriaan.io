@@ -12,6 +12,7 @@ tagline:          "Adriaan's coding blog"
 description:      'Just learnings, no bullshit'
 url:              https://blog.adriaan.io
 baseurl:          /
+disqus_shortname: demaandvanadriaan
 
 author:
   name:           'Adriaan van Rossum'
