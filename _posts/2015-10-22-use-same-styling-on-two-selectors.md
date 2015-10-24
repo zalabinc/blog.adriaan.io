@@ -1,5 +1,5 @@
 ---
-title: Use the same style definitions twice without extend
+title: Use the same style definitions twice without extend in SASS
 layout: post
 ---
 
@@ -52,7 +52,7 @@ can use the `mixin`-function like this:
 
 {% highlight css %}
 @mixin button() {
-  border: none;
+  color: red;
 }
 
 .button {
