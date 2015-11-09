@@ -15,7 +15,7 @@ It was running fine.
 
 *Note [Use `--rm` here](https://github.com/progrium/dokku/issues/450#issuecomment-124851555) to not overload your server with not closed docker instances.*
 
-My crontab looked like this:
+Then I wanted to create a crontab for the crawler, my crontab looked like this:
 
 {% highlight sh %}
 # dokku user
