@@ -11,7 +11,9 @@ Next I wanted to test the `run`-command of dukku:
 ssh -t dokku@xxx.xxx.xxx.xxx -- run crawler npm run npm_script_name --rm
 {% endhighlight %}
 
-[Use `--rm` here](https://github.com/progrium/dokku/issues/450#issuecomment-124851555) to not overload your server with not closed docker instances.
+It was running fine.
+
+*Note [Use `--rm` here](https://github.com/progrium/dokku/issues/450#issuecomment-124851555) to not overload your server with not closed docker instances.*
 
 My crontab looked like this:
 
