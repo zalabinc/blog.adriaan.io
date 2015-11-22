@@ -3,7 +3,7 @@ title: Terminate a program by port on Mac
 layout: post
 ---
 
-Sometimes I need to kill a process. I always have to Google how to do that again. Not anymore. Put this function in `~/.bash_profile`
+Sometimes I need to kill a process. I always have to Google how to do that again. Not anymore. Put this function in `~/.bash_profile`.
 
 {% highlight bash %}
 # terminate function
