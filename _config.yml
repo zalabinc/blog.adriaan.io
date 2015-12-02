@@ -18,7 +18,7 @@ author:
   name:           'Adriaan van Rossum'
   url:            https://twitter.com/harianus
 
-paginate:         5
+paginate:         20
 
 defaults:
   -
