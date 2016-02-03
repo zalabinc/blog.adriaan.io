@@ -7,7 +7,7 @@ Ember uses the Broccoli build tool to build the `css` and `js`-files. You can of
 
 Here is an example copy pasted out of the `Brocfile.js` file of my current project (without EmberJS):
 
-{% highlight js %}
+```js
 // Prefix the css
 var prefixedCss = autoprefixer(css, {
   browsers: ['ie 9-11', 'last 2 versions']
@@ -15,7 +15,7 @@ var prefixedCss = autoprefixer(css, {
 
 // Merge and export the whole thing
 module.exports = mergeTrees([prefixedCss, js]);
-{% endhighlight %}
+```
 
 Where `css` is the Broccoli tree with the already compiled sass to css files.
 In the `browsers`-object you can specify which browser you want prefixes for.
