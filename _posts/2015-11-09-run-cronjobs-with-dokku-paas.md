@@ -7,9 +7,9 @@ I have a crawler running for [watiseropderadio.nl](http://watiseropderadio.nl) a
 
 Next I wanted to test the `run`-command of dukku:
 
-{% highlight sh %}
+```sh
 ssh -t dokku@xxx.xxx.xxx.xxx -- run crawler npm run npm_script_name --rm
-{% endhighlight %}
+```
 
 It was running fine.
 
@@ -17,23 +17,23 @@ It was running fine.
 
 Then I wanted to create a crontab for the crawler, my crontab looked like this:
 
-{% highlight sh %}
+```sh
 # dokku user
 * * * * * /usr/local/bin/dokku --rm run crawler npm run npm_script_name
-{% endhighlight %}
+```
 
 but I got errors all the time complaining about a `plugn` `command not found`:
 
-{% highlight sh %}
+```sh
 /var/lib/dokku/plugins/enabled/00_dokku-standard/commands: line 137: plugn: command not found
-{% endhighlight %}
+```
 
 then [I found this GitHub-issue](https://github.com/progrium/dokku/issues/913) and changed my crontab to this and everything worked:
 
-{% highlight sh %}
+```sh
 # dokku user
 * * * * * bash -c ': | PATH="$PATH:/usr/local/bin" dokku --rm run crawler npm run npm_script_name'
-{% endhighlight %}
+```
 
 So hopefully someone will not be fighting for a long time with this problem by reading this blog post. Enjoy ;-) 
 
