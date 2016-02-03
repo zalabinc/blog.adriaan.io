@@ -12,7 +12,7 @@ I have some shortcuts setup for git like this:
 
 On Mac you can edit your `.gitconfig` file by typing `nano ~/.gitconfig` and add the following:
 
-{% highlight %}
+```
 [alias]
   co = checkout
   ci = commit
@@ -21,13 +21,13 @@ On Mac you can edit your `.gitconfig` file by typing `nano ~/.gitconfig` and add
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
-{% endhighlight %}
+```
 
 If you even want the `git` command shorter, then you can make an alias in your ~/.bash_profile file by typing `nano ~/.bash_profile` and adding the following:
 
-{% highlight bash %}
+```bash
 alias g='git'
-{% endhighlight %}
+```
 
 Now you can use git like this: `g co -b feature/new-branch` (creates a new branch).
 
