@@ -5,7 +5,7 @@ layout: post
 
 How to do a `findBy` on an `PromiseArray` in Ember?
 
-{% highlight js %}
+```js
 export default Ember.ObjectController.extend({
 
   products: function() {
@@ -17,7 +17,7 @@ export default Ember.ObjectController.extend({
   }.property('products.isFulfilled')
 
 });
-{% endhighlight %}
+```
 
 The trick is to use the `isFulfilled` flag so it does not throw an error.
 
