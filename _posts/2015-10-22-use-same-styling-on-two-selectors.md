@@ -1,6 +1,5 @@
 ---
 title: Use the same style definitions twice without extend in SASS
-layout: post
 ---
 
 In `sass` or `scss` you can use `extend`-function to merge selectors together.
@@ -9,7 +8,7 @@ two different selectors you maybe want a different behaviour.
 
 The problem is as follows.
 
-{% highlight css %}
+```scss
 %button {
   color: red;
 }
@@ -23,20 +22,20 @@ The problem is as follows.
     @extend %button;
   }
 }
-{% endhighlight %}
+```
 
 Results in the following `css`:
 
-{% highlight css %}
+```css
 .button,
 .button-desktop-only {
   color: red;
 }
-{% endhighlight %}
+```
 
 But you want to have this result:
 
-{% highlight css %}
+```css
 .button {
   color: red;
 }
@@ -45,12 +44,12 @@ But you want to have this result:
     color: red;
   }
 }
-{% endhighlight %}
+```
 
 How to solve this?  If just want to copy some styling to another selector you 
 can use the `mixin`-function like this:
 
-{% highlight css %}
+```scss
 @mixin button() {
   color: red;
 }
@@ -64,11 +63,11 @@ can use the `mixin`-function like this:
     @include button();
   }
 }
-{% endhighlight %}
+```
 
 What will result in this `css`:
 
-{% highlight css %}
+```css
 .button {
   color: red;
 }
@@ -78,4 +77,4 @@ What will result in this `css`:
     color: red;
   }
 }
-{% endhighlight %}
+```
