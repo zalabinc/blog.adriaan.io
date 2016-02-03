@@ -29,4 +29,6 @@ If you even want the `git` command shorter, then you can make an alias in your ~
 alias g='git'
 {% endhighlight %}
 
+Now you can use git like this: `g co -b feature/new-branch` (creates a new branch).
+
 Source: [http://githowto.com/aliases](http://githowto.com/aliases).
