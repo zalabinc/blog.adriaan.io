@@ -9,11 +9,11 @@ You probably don't want that, so you can automatically trim the whitespace on sa
 
 Go to `SublimeText` > `Preferences` > `User Settings` and add the following line:
 
-{% highlight js %}
+```js
 {
   ...
   "trim_trailing_white_space_on_save": true
 }
-{% endhighlight %}
+```
 
 Works for Sublime Text version 2 and 3. Enjoy!
