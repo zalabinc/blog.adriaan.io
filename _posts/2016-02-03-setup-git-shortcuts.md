@@ -12,7 +12,7 @@ I have some shortcuts setup for git like this:
 
 On Mac you can edit your `.gitconfig` file by typing `nano ~/.gitconfig` and add the following:
 
-{% highlight bash %}
+{% highlight %}
 [alias]
   co = checkout
   ci = commit
