@@ -5,20 +5,20 @@ layout: post
 
 Copy and paste the code below in `~/.bash_profile`. You can edit the file by typing `nano ~/.bash_profile`
 
-{% highlight bash %}
+```bash
 # Sublime Text alias
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-{% endhighlight %}
+```
 
 For Sublime Text 2 it is
 
-{% highlight bash %}
+```bash
 # Sublime Text alias
 alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
-{% endhighlight %}
+```
 
 Now you can type (without the `$` of course)
 
-{% highlight bash %}
+```bash
 $ subl ~/Downloads/some_file.txt
-{% endhighlight %}
+```
