@@ -1,8 +1,6 @@
 ---
 title: Sublime Text 3 pretty JSON
-redirect_from: 
- - /post/85516696509/sublime-pretty-json
- - /post/85516696509/sublime-pretty-json/
+redirect_from: /post/85516696509/sublime-pretty-json.html
 ---
 
 Turn ugly json via CMD + SHIFT + P in pretty JSON!
