@@ -1,6 +1,7 @@
 ---
 title: Ember Use findBy on PromiseArray
 layout: post
+redirect_from: /post/95822980964/ember-use-findby-on-promisearray/
 ---
 
 How to do a `findBy` on an `PromiseArray` in Ember?
