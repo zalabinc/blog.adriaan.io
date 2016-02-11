@@ -23,3 +23,6 @@ defaults:
     values:
       layout: "post"
       is_post: true
+
+gems:
+  - jekyll-redirect-from
