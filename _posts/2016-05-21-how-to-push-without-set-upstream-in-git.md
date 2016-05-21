@@ -2,12 +2,7 @@
 layout: post
 ---
 
-Tiered of typing this?
-
-```bash
-git branch --set-upstream awesome-branch origin/awesome-branch
-git push
-```
+Tiered of typing `git branch --set-upstream awesome-branch origin/awesome-branch`?
 
 Change your git setting to use the current branch name:
 
