@@ -1,6 +1,11 @@
+.related {
+  border-bottom: none;
+}
+
 .like-on-twitter {
   text-align: center;
 }
+
 .like-on-twitter p {
   margin: 0;
   display: inline-block;
