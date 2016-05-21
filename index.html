@@ -18,11 +18,10 @@ title: Home
 </div>
 
 <!--
-{% if paginator.total_posts %}
-  per_page: {{paginator.per_page}}
-  total_posts: {{paginator.total_posts}}
+{% if paginator.per_page < paginator.total_posts %}
+  smaller
 {% else %}
-  no paginator
+  bigger
 {% endif %}
 -->
 
