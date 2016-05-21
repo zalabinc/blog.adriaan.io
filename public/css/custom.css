@@ -1,7 +1,13 @@
+/* Reset some styling */
 .related {
   border-top: none;
 }
 
+.post {
+  margin-bottom: 3em;
+}
+
+/* Follow on twitter button */
 .like-on-twitter {
   text-align: center;
 }
