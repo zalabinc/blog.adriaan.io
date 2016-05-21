@@ -18,8 +18,9 @@ title: Home
 </div>
 
 <!--
-{% if paginator %}
-  paginator
+{% if paginator.total_posts %}
+  per_page: {{paginator.per_page}}
+  total_posts: {{paginator.total_posts}}
 {% else %}
   no paginator
 {% endif %}
