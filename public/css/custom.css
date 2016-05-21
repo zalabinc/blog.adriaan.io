@@ -1,3 +1,6 @@
+.like-on-twitter {
+  text-align: center;
+}
 .like-on-twitter p {
   margin: 0;
   display: inline-block;
@@ -10,9 +13,9 @@
 .like-on-twitter p a {
   color: #55acee !important;
   text-decoration: none;
+}
+
+.like-on-twitter p a:hover {
   border-bottom: 1px solid #55acee;
 }
 
-.like-on-twitter {
-  text-align: center;
-}
