@@ -20,5 +20,3 @@ If you use Ember.js, you probably want something like this:
 ```
 /Users/Adriaan/MyCoolApp, -*/node_modules/*, -*/bower_components/*, -*/tmp/*
 ```
-
-Happy coding!
