@@ -35,4 +35,4 @@ module.exports = (defaults) => {
 
 You need to add `'use strict';` on top of the file if you use `let` variables.
 
-Make sure you install `broccoli-stew` by installing it via `npm install broccoli-stew --save-dev`.
+Make sure you install [broccoli-stew](https://github.com/stefanpenner/broccoli-stew) by installing it via `npm install broccoli-stew --save-dev`.
