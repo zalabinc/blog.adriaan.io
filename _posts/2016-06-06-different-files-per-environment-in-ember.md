@@ -1,7 +1,7 @@
 ---
 ---
 
-Maybe you want to have a logo with the same url showing something different on production and staging. Or you want to have different `robots.txt` files because you don't whant to give robots permision on you non-production environment (like staging or acceptance).
+Maybe you want to have a logo with the same url showing something different on production and staging. Or you want to have different `robots.txt` files because you don't want to give robots permision on you non-production environment (like staging or acceptance).
 
 In Ember.js you can edit the tree like this:
 
