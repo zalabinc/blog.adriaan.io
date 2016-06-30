@@ -5,7 +5,7 @@ With *CSS* you can do a lot of cool stuff like `transform` and `transition`. But
 
 Let's say you have some sections on your webpage and you want to show them with a nice `transition` when they become visible for the user.
 
-You will need this *SCSS* with a visible class:
+You will need this *SCSS* with a `visible` class:
 
 ```scss
 section.fly-in {
