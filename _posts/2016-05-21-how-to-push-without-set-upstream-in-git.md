@@ -16,6 +16,4 @@ And you can just use
 git push
 ```
 
-Enjoy!
-
 *Thanks to [zamith](http://stackoverflow.com/users/830229/zamith) on [stackoverflow.com](http://stackoverflow.com/a/22933955/747044).*
