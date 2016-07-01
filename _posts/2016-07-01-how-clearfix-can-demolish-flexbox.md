@@ -14,7 +14,7 @@ But it aligned like this:
 
 ![](/images/posts/flex-box-strange.png)
 
-The `scss` looked not so strange, so I put everything in a [jsfiddle](https://jsfiddle.net/harianus/fczkLc93/2/) to figure out, but is showed correctly.
+The `scss` looked not so strange, so I put everything in a [jsfiddle](https://jsfiddle.net/harianus/fczkLc93/2/) to figure it out, but it showed correctly.
 
 ```scss
 div {
