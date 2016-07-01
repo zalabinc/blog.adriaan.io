@@ -8,7 +8,7 @@ Sometimes I need to kill a process. I always have to Google how to do that again
 ```bash
 # terminate function
 terminate () {
-  lsof -i "tcp:$1" | tail -1 | awk '{print $2}' | xargs kill -9&& echo "Killed proces on port $1" || echo "Failed to kill proces on port $1"
+  lsof -i "tcp:$1" | tail -1 | awk '{print $2}' | xargs kill -9 && echo "Killed proces on port $1" || echo "Failed to kill proces on port $1"
 }
 ```
 
