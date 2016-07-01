@@ -49,4 +49,4 @@ After removing this `clearfix` it looked like this:
 
 ![](/images/posts/flex-box-good.png)
 
-So the `::after` element is also considered part of the flexbox. This makes sense of course, but I totally missed it. Hopfully you don't.
+So the `::after` element is also considered part of the flexbox. This makes sense of course, but I totally missed it. Hopefully you don't.
