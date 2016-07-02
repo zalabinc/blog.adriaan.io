@@ -3,7 +3,7 @@ title: How to automaticly add css prefixes with Brocolli or EmberJS
 layout: post
 ---
 
-Ember uses the Broccoli build tool to build the `css` and `js`-files. You can ofcourse use Broccoli without EmberJS. 
+Ember uses the Broccoli build tool to build the `css` and `js`-files. You can of course use Broccoli without EmberJS. 
 
 Here is an example copy pasted out of the `Brocfile.js` file of my current project (without EmberJS):
 
