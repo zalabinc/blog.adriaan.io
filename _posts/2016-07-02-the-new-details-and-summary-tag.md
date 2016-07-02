@@ -13,10 +13,10 @@ With this `details`-tag you can create foldable / collapsible content:
 
 This is the content when it *is* collapsed:
 
-<img src="/images/posts/collapsed.png" width="336px">
+<img style="border: 1px solid gray; padding: 10px 15px;" src="/images/posts/collapsed.png" width="336px">
 
 And this is the content when it *is not* collapsed:
 
-<img src="/images/posts/not-collapsed.png" width="499px">
+<img style="border: 1px solid gray; padding: 10px 15px;" src="/images/posts/not-collapsed.png" width="499px">
 
 It's handy for [hiding logs](https://twitter.com/ericclemmons/status/749223563790471169) in GitHub issues but you can still add them in a nice way for poeple who need them.
