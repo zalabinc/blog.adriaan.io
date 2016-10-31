@@ -1,4 +1,5 @@
 ---
+title: macOS Sierra Broke My Git
 ---
 
 One morning I was running `git status`. I got this ugly error message in my terminal:
