@@ -23,7 +23,7 @@ With Ember you can use the [`get`-function](http://emberjs.com/api/#method_get):
 const ernieHead = get(toys, 'toys.muppets.ernie.head');
 ```
 
-So in a controller it would like this:
+So in a controller it would be like this:
 
 ```js
 import Ember from 'ember';
