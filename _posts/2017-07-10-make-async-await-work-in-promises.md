@@ -60,3 +60,10 @@ function returnSomething(name) {
   });
 }
 ```
+const myAsync = async () => { 
+  try {
+    // return === resolve
+  } catch (error) {
+    // same as reject in new Promise()
+  }  
+}
